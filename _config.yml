@@ -1,3 +1,35 @@
+# Site settings
+title: Your Deep Learning Blog
+description: A blog about deep learning and artificial intelligence.
+url: https://christiankotait.github.io  # Update with your GitHub Pages URL
+baseurl: ""  # Leave this empty for GitHub Pages
+
+# Build settings
+markdown: kramdown
 theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+
+# GitHub Pages settings
+repository: christiankotait/christiankotait.github.io  # Update with your GitHub username
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Author information
+author:
+  name: Christian Kotait
+  bio: Deep Learning Enthusiast
+
+
+# Exclude files/folders from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - _site
+
+# Pagination
+paginate: 5  # Number of posts per page
+
+# Date format
+date_format: "%B %-d, %Y"  # Example: "September 16, 2023"
